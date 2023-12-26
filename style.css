@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .sumcount{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px dashed ;
+  }
+  
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+  }
+  h1{
+    text-align: center;
+  }
+  .add{
+    color: red;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    text-align: center;
+    border: 1px dashed ;
+  }
